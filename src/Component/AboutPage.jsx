@@ -7,10 +7,9 @@ import clientFocus from "../photos/clientFocus.png";
 import innovationImg from "../photos/innovation.jpg";
 import adaptabilityImg from "../photos/adaptability.jpg";  
 
-const AboutPage = () => {         // AboutPage component
+const AboutPage = () => {        
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      {/* Hero Section */}
       <section className="text-center mb-16">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">About Trooper Consultancy Services</h1>
         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -27,7 +26,7 @@ const AboutPage = () => {         // AboutPage component
           </div>
           <div>
             <p className="text-gray-600 mb-4">
-              Founded in 2020, Trooper Consultancy Services began with a vision to bridge the gap between innovative software solutions and business needs. Our founders, veterans in the tech industry, aimed to create a consultancy focused on delivering tangible results through tailored software development and strategic IT guidance.
+              Founded in 2021, Trooper Consultancy Services began with a vision to bridge the gap between innovative software solutions and business needs. Our founders, veterans in the tech industry, aimed to create a consultancy focused on delivering tangible results through tailored software development and strategic IT guidance.
             </p>
             <p className="text-gray-600">
               Over the years, we've grown our team and expanded our service offerings, adapting to the ever-evolving technology landscape. We've partnered with businesses of all sizes, helping them navigate digital transformation, optimize processes, and build robust, scalable software applications. Our commitment to excellence and client success remains the cornerstone of our operation.
