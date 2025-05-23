@@ -1,9 +1,9 @@
-import React from 'react';
+'use client'
 import aboutImg from "../photos/About.jpg"; // Importing the image for the About section
 import excellenceImg from "../photos/excellence.jpg";
 import Logo2 from "../photos/Logo2.png";
 import collaborationImg from "../photos/collaboration.jpg";
-import clientFocusImg from "../photos/clientfocus.png";
+import clientFocus from "../photos/clientFocus.png";
 import innovationImg from "../photos/innovation.jpg";
 import adaptabilityImg from "../photos/adaptability.jpg";  
 
