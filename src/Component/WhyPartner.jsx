@@ -1,20 +1,28 @@
+// Trooper Consultancy Contact Page Component
+import logo1 from "../photos/Logo.png";
+import logo2 from "../photos/Logo2.png";
+import logo3 from "../photos/Logo3.png";
+import logo4 from "../photos/Logo4.png";
+
 export default function WhyPartner() {
   return (
     <section className="why-partner py-16 px-4 max-w-6xl mx-auto">
-      <h2 className="text-3xl font-bold text-center mb-12">Why Partner With Trooper Consultancy?</h2>
-      <p className="text-center text-lg mb-12">Experience the difference our expertise and commitment can make for your business.</p>
-      <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-8">
-        <div className="feature-card p-6 border rounded-lg flex items-center justify-center">
-          <img src="/logo.png" alt="Logo" className="w-16 h-16" />
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="feature-card flex flex-col items-center p-6 border rounded-lg">
+          <img src={logo1} alt="Expertise" className="h-20 w-20 object-contain mb-4" />
+          <h3 className="font-bold text-xl text-center">Expertise</h3>
         </div>
-        <div className="feature-card p-6 border rounded-lg flex items-center justify-center">
-          <img src="/Logo2.png" alt="Logo" className="w-16 h-16" />
+        <div className="feature-card flex flex-col items-center p-6 border rounded-lg">
+          <img src={logo2} alt="Integrity" className="h-20 w-20 object-contain mb-4" />
+          <h3 className="font-bold text-xl text-center">Integrity</h3>
         </div>
-        <div className="feature-card p-6 border rounded-lg flex items-center justify-center">
-          <img src="/Logo3.png" alt="Logo" className="w-16 h-16" />
+        <div className="feature-card flex flex-col items-center p-6 border rounded-lg">
+          <img src={logo3} alt="Collaboration" className="h-20 w-20 object-contain mb-4" />
+          <h3 className="font-bold text-xl text-center">Collaboration</h3>
         </div>
-        <div className="feature-card p-6 border rounded-lg flex items-center justify-center">
-          <img src="/Logo4.png" alt="Logo" className="w-16 h-16" />
+        <div className="feature-card flex flex-col items-center p-6 border rounded-lg">
+          <img src={logo4} alt="Innovation" className="h-20 w-20 object-contain mb-4" />
+          <h3 className="font-bold text-xl text-center">Innovation</h3>
         </div>
       </div>
     </section>

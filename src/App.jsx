@@ -3,6 +3,14 @@ import WhyPartner from './Component/WhyPartner';
 import Services from './Component/Services';
 import './App.css';
 import React from 'react';
+import Testimonials from './Component/Testimonials';
+import TeamAndInsightsPage from './Component/TeamAndInsightsPage';
+import FooterPage from './Component/FooterPage';
+import ServicesOfferings from './Component/ServicesOfferings';
+import AboutPage from './Component/AboutPage';
+import Contact from './Component/Contact';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 
 function App() {
   return (
@@ -10,7 +18,13 @@ function App() {
       <Hero />
       <WhyPartner />
       <Services />
-    </div>
+     <Testimonials />
+   <TeamAndInsightsPage/>
+   <ServicesOfferings/>
+   <AboutPage/>
+    <Contact/>
+     <FooterPage/>
+       </div>
   );
 }
 
