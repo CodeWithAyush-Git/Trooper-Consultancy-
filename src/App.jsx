@@ -1,30 +1,43 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Hero from './Component/Hero';
 import WhyPartner from './Component/WhyPartner';
 import Services from './Component/Services';
-import './App.css';
-import React from 'react';
 import Testimonials from './Component/Testimonials';
 import TeamAndInsightsPage from './Component/TeamAndInsightsPage';
-import FooterPage from './Component/FooterPage';
 import ServicesOfferings from './Component/ServicesOfferings';
 import AboutPage from './Component/AboutPage';
 import Contact from './Component/Contact';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import FooterPage from './Component/FooterPage';
+import LoginPage from './Component/LoginPage';
+import './App.css';
 
-
-function App() {
+function Home() {
   return (
-    <div className="App">
+    <>
       <Hero />
       <WhyPartner />
       <Services />
-     <Testimonials />
-   <TeamAndInsightsPage/>
-   <ServicesOfferings/>
-   <AboutPage/>
-    <Contact/>
-     <FooterPage/>
-       </div>
+      <Testimonials />
+      <TeamAndInsightsPage />
+    </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/" element={<Home/>} />
+          <Route path="/services" element={<ServicesOfferings />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <FooterPage />
+      </div>
+    </Router>
   );
 }
 

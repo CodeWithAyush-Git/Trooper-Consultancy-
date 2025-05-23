@@ -1,15 +1,33 @@
-import React, { useState } from 'react';                           // Import necessary modules
+import React, { useState } from 'react';
 import insight1 from "../photos/insight1.jpg";
 import insight2 from "../photos/insight2.jpg";
-import insight3 from "../photos/insight3.jpg";  
-import jane from "../photos/jane.jpg";
-import john from "../photos/john.jpg";
-import emily from "../photos/emily.jpg";
-import michael from "../photos/michael.jpg";                     // Import images
+import insight3 from "../photos/insight3.jpg";
 
+const team = [
+  {
+    name: "Jane Doe",
+    position: "Chief Technology Officer",
+    img: "https://i.pravatar.cc/300?img=12"
+  },
+  {
+    name: "John Smith",
+    position: "Lead Project Manager",
+    img: "https://i.pravatar.cc/300?img=32"
+  },
+  {
+    name: "Emily Johnson",
+    position: "Senior IT Consultant",
+    img: "https://i.pravatar.cc/300?img=47"
+  },
+  {
+    name: "Michael Brown",
+    position: "Software Architect",
+    img: "https://i.pravatar.cc/300?img=5"
+  }
+];
 
 const TeamAndInsightsPage = () => {
-  const [activeIndex, setActiveIndex] = useState(null);             // State to manage active accordion index
+  const [activeIndex, setActiveIndex] = useState(null);
 
   const faqs = [
     {
@@ -35,50 +53,35 @@ const TeamAndInsightsPage = () => {
   ];
 
   const toggleAccordion = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);                               // Toggle accordion state
+    setActiveIndex(activeIndex === index ? null : index);
   };
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
       {/* Meet Our Expert Team Section */}
-     
-       <section className="mb-16">
+      <section className="mb-16">
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-4">Meet Our Expert Team</h1>
-        <p className="text-lg text-center  text-gray-600 mb-8">Our consultants bring deep industry knowledge and technical expertise.</p>
-        
+        <p className="text-lg text-center text-gray-600 mb-8">Our consultants bring deep industry knowledge and technical expertise.</p>
         <hr className="border-gray-200 my-8" />
-        
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div className="text-center">
-            <img src={jane} alt="Jane Doe" className="bg-gray-200 h-40 w-full mb-4 object-cover rounded" />
-            <h3 className="text-xl font-semibold">Jane Doe</h3>
-            <p className="text-gray-600">Chief Technology Officer</p>
-          </div>
-          <div className="text-center">
-            <img src={john} alt="John Smith" className="bg-gray-200 h-40 w-full mb-4 object-cover rounded" />
-            <h3 className="text-xl font-semibold">John Smith</h3>
-            <p className="text-gray-600">Lead Project Manager</p>
-          </div>
-          <div className="text-center">
-            <img src={emily} alt="Emily Johnson" className="bg-gray-200 h-40 w-full mb-4 object-cover rounded" />
-            <h3 className="text-xl font-semibold">Emily Johnson</h3>
-            <p className="text-gray-600">Senior IT Consultant</p>
-          </div>
-          <div className="text-center">
-            <img src={michael} alt="Michael Brown" className="bg-gray-200 h-40 w-full mb-4 object-cover rounded" />
-            <h3 className="text-xl font-semibold">Michael Brown</h3>
-            <p className="text-gray-600">Software Architect</p>
-          </div>
+          {team.map((member, idx) => (
+            <div className="text-center" key={idx}>
+              <img
+                src={member.img}
+                alt={member.name}
+                className="h-40 w-40 mx-auto mb-4 object-cover rounded-full border-4 border-blue-200"
+              />
+              <h3 className="text-xl font-semibold">{member.name}</h3>
+              <p className="text-gray-600">{member.position}</p>
+            </div>
+          ))}
         </div>
       </section>
-      {/* Insights Section */}
 
       {/* FAQ Section with Accordion */}
       <section className="mb-16">
         <hr className="border-gray-200 my-8" />
-        
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">Frequently Asked Questions</h1>
-        
         <div className="space-y-4">
           {faqs.map((faq, index) => (
             <div key={index} className="border border-gray-200 rounded-lg overflow-hidden">
@@ -98,7 +101,6 @@ const TeamAndInsightsPage = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
-              
               {activeIndex === index && (
                 <div className="px-6 py-4 bg-white">
                   <p className="text-gray-600">{faq.answer}</p>
@@ -110,7 +112,7 @@ const TeamAndInsightsPage = () => {
       </section>
 
       {/* Recent Insights Section */}
-            <section>
+      <section>
         <hr className="border-gray-200 my-8" />
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-4">Recent Insights & Blog Posts</h1>
         <p className="text-lg text-gray-600 text-center mb-8">Stay informed with our latest thinking on technology and business strategy.</p>

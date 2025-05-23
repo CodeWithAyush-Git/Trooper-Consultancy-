@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-
 const FooterPage = () => {
   const [email, setEmail] = useState('');
   const [isSubscribed, setIsSubscribed] = useState(false);
   const [subscriptionMessage, setSubscriptionMessage] = useState('');
-
+  // Function to handle email subscription
   const handleSubscribe = (e) => {
     e.preventDefault();
     if (email) {
@@ -14,7 +13,7 @@ const FooterPage = () => {
       setTimeout(() => setSubscriptionMessage(''), 3000);
     }
   };
-
+  // Function to handle form submission
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
       {/* Newsletter Section */}
@@ -53,9 +52,9 @@ const FooterPage = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4 text-gray-800">Services</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Software Development</a></li>
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Project Management</a></li>
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">IT Consulting</a></li>
+            <li><a href="#" className="text-gray-600 hover:text-blue-600">Software Development</a></li>                 {/* link update it  */}
+            <li><a href="#" className="text-gray-600 hover:text-blue-600">Project Management</a></li>                   {/* link update it  */}
+            <li><a href="#" className="text-gray-600 hover:text-blue-600">IT Consulting</a></li>                         {/* link update it  */}
           </ul>
         </div>
 
@@ -63,19 +62,19 @@ const FooterPage = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4 text-gray-800">About</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Company</a></li>
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Team</a></li>
+            <li><a href="#" className="text-gray-600 hover:text-blue-600">Company</a></li>                                  {/* link update it  */}
+            <li><a href="#" className="text-gray-600 hover:text-blue-600">Team</a></li>                                     {/* link update it  */}
             <li><a href="#" className="text-gray-600 hover:text-blue-600">Values</a></li>
-          </ul>
+          </ul>                                                                    {/* link update it  */} 
         </div>
 
         {/* Resources Column */}
         <div>
           <h3 className="text-xl font-semibold mb-4 text-gray-800">Resources</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Blog</a></li>
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Case Studies</a></li>
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Whitepapers</a></li>
+            <li><a href="#" className="text-gray-600 hover:text-blue-600">Blog</a></li>                                       {/* link update it  */}
+            <li><a href="#" className="text-gray-600 hover:text-blue-600">Case Studies</a></li>                                {/* link update it  */}
+            <li><a href="#" className="text-gray-600 hover:text-blue-600">Whitepapers</a></li>                                 {/* link update it  */}
           </ul>
         </div>
 
@@ -83,9 +82,9 @@ const FooterPage = () => {
         <div>
           <h3 className="text-xl font-semibold mb-4 text-gray-800">Contact</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Contact Form</a></li>
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Address</a></li>
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Phone</a></li>
+            <li><a href="#" className="text-gray-600 hover:text-blue-600">Contact Form</a></li>                                {/* link update it  */}
+            <li><a href="#" className="text-gray-600 hover:text-blue-600">Address</a></li>                                      {/* link update it  */}
+            <li><a href="#" className="text-gray-600 hover:text-blue-600">Phone</a></li>                                       {/* link update it  */}
           </ul>
         </div>
       </div>

@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import contactImg from "../photos/Contact.jpg"; 
 
-const ContactPage = () => {
+const ContactPage = () => {                                        {/* ContactPage component */}
   const [formData, setFormData] = useState({
-    name: '',
+    name: '',                                               
     email: '',
     message: ''
   });
-
+                                                                    {/* State to manage form data */}
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({
@@ -15,7 +15,7 @@ const ContactPage = () => {
       [name]: value
     }));
   };
-
+  // Function to handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission
@@ -90,7 +90,7 @@ const ContactPage = () => {
 
         {/* Contact Information Section */}
         <section className="bg-gray-50 p-8 rounded-lg">
-          {/* Yahan image lagayi gayi hai */}
+           {/* Yahan image lagayi gayi hai */}
           <img
             src={contactImg}
             alt="Contact"

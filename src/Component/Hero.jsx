@@ -1,10 +1,15 @@
 import { useState } from 'react';
 import heroImg from "../photos/hero.jpg";
+import { Link, useNavigate } from "react-router-dom";
 
-const HeaderWithHero = () => {
+const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  const navigate = useNavigate();
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+
+  const handleExploreServices = () => {
+    navigate('/services');
+  };
 
   return (
     <div>
@@ -18,11 +23,12 @@ const HeaderWithHero = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <a href="#landing" className="text-gray-700 hover:text-blue-600 font-medium">Landing Page</a>
-            <a href="#services" className="text-gray-700 hover:text-blue-600 font-medium">Services Overview</a>
+            <Link to="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
+            <Link to="/services" className="text-gray-700 hover:text-blue-600 font-medium">Services</Link>
             <a href="#cases" className="text-gray-700 hover:text-blue-600 font-medium">Case Studies</a>
-            <a href="#about" className="text-gray-700 hover:text-blue-600 font-medium">About Us</a>
-            <a href="#contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact Us</a>
+            <Link to="/about" className="text-gray-700 hover:text-blue-600 font-medium">About Us</Link>
+            <Link to="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact Us</Link>
+            <Link to="/login" className="text-gray-700 hover:text-blue-600 font-medium">Login</Link>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -50,41 +56,41 @@ const HeaderWithHero = () => {
               </button>
             </div>
             <nav className="flex flex-col space-y-4 p-6">
-              <a 
-                href="#landing" 
+              <Link 
+                to="/" 
                 className="text-gray-700 hover:text-blue-600 font-medium py-2"
                 onClick={toggleMenu}
               >
-                Landing Page
-              </a>
-              <a 
-                href="#services" 
+                Home
+              </Link>
+              <Link 
+                to="/services"
                 className="text-gray-700 hover:text-blue-600 font-medium py-2"
                 onClick={toggleMenu}
               >
-                Services Overview
-              </a>
+                Services
+              </Link>
               <a 
-                href="#cases" 
+                href="#cases"
                 className="text-gray-700 hover:text-blue-600 font-medium py-2"
                 onClick={toggleMenu}
               >
                 Case Studies
               </a>
-              <a 
-                href="#about" 
+              <Link 
+                to="/about"
                 className="text-gray-700 hover:text-blue-600 font-medium py-2"
                 onClick={toggleMenu}
               >
                 About Us
-              </a>
-              <a 
-                href="#contact" 
+              </Link>
+              <Link 
+                to="/contact"
                 className="text-gray-700 hover:text-blue-600 font-medium py-2"
                 onClick={toggleMenu}
               >
                 Contact Us
-              </a>
+              </Link>
             </nav>
           </div>
         </div>
@@ -92,30 +98,33 @@ const HeaderWithHero = () => {
 
       {/* Hero Section with background image and overlay content */}
       <section className="relative h-[450px] md:h-[600px] bg-gray-900 flex items-center justify-center">
-  {/* Background Image */}
-  <img
-    src={heroImg}
-    alt="Empowering Businesses Through Technology"
-    className="absolute inset-0 w-full h-full object-cover opacity-70"
-  />
-  {/* Overlay for dark effect */}
-  <div className="absolute inset-0 bg-black opacity-40"></div>
-  {/* Overlay Content */}
-  <div className="relative z-10 flex flex-col items-center md:items-start justify-center h-full text-center md:text-left px-4 md:pl-16 w-full max-w-4xl">
-    <h1 className="text-3xl md:text-5xl font-bold text-white mb-4 drop-shadow-lg">
-      Empowering Businesses
-      <span className="block text-blue-200">Through Technology</span>
-    </h1>
-    <p className="text-lg md:text-2xl text-white mb-6 drop-shadow">
-      Driving innovation and efficiency with expert software consultancy.
-    </p>
-    <button className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-8 rounded-md transition duration-300 shadow-lg">
-      Explore Our Services
-    </button>
-  </div>
-</section>
+        {/* Background Image */}
+        <img
+          src={heroImg}
+          alt="Empowering Businesses Through Technology"
+          className="absolute inset-0 w-full h-full object-cover opacity-70"
+        />
+        {/* Overlay for dark effect */}
+        <div className="absolute inset-0 bg-black opacity-40"></div>
+        {/* Overlay Content */}
+        <div className="relative z-10 flex flex-col items-center md:items-start justify-center h-full text-center md:text-left px-4 md:pl-16 w-full max-w-4xl">
+          <h1 className="text-3xl md:text-5xl font-bold text-white mb-4 drop-shadow-lg">
+            Empowering Businesses
+            <span className="block text-blue-200">Through Technology</span>
+          </h1>
+          <p className="text-lg md:text-2xl text-white mb-6 drop-shadow">
+            Driving innovation and efficiency with expert software consultancy.
+          </p>
+          <button
+            className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-8 rounded-md transition duration-300 shadow-lg"
+            onClick={handleExploreServices}
+          >
+            Explore Our Services
+          </button>
+        </div>
+      </section>
     </div>
   );
-}; 
+};
 
-export default HeaderWithHero;
+export default Header;

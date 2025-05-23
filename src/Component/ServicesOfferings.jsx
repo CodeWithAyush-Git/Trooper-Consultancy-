@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import s1 from "../photos/s1.jpg";
 import s2 from "../photos/s2.jpg";
 import s3 from "../photos/s3.jpg";

@@ -18,7 +18,7 @@ const AboutPage = () => {         // AboutPage component
         </p>
       </section>
 
-      {/* Our Journey Section */}
+      {/* Our Journey Section */}                         {/* header photos are here if you cange       */}
       <section className="mb-16">
         <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Journey</h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
@@ -38,7 +38,7 @@ const AboutPage = () => {         // AboutPage component
 
       {/* Core Values Section */}
       <section>
-        <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Our Core Values</h2>
+        <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Our Core Values</h2>                                  {/*  all are card here if change the photos       */}
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Excellence */}

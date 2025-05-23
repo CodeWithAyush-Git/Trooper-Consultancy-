@@ -90,9 +90,17 @@ const Testimonials = () => {
               <blockquote className="mb-4">
                 <p className="text-gray-600 italic">"{testimonial.quote}"</p>
               </blockquote>
-              <div className="mt-4">
-                <p className="font-semibold text-gray-900">{testimonial.name}</p>
-                <p className="text-gray-500 text-sm">{testimonial.position}</p>
+              <div className="mt-4 flex items-center">
+                {/* Dummy profile image */}
+                <img
+                  src={`https://i.pravatar.cc/40?img=${(testimonial.id % 70) + 1}`}
+                  alt={testimonial.name}
+                  className="w-10 h-10 rounded-full mr-3 border"
+                />
+                <div>
+                  <p className="font-semibold text-gray-900">{testimonial.name}</p>
+                  <p className="text-gray-500 text-sm">{testimonial.position}</p>
+                </div>
               </div>
             </div>
           ))}
