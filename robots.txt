@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://https://trooperconsultancy.vercel.app//sitemap.xml
