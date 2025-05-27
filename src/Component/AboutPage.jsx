@@ -5,7 +5,7 @@ import Logo2 from "../photos/Logo2.png";
 import collaborationImg from "../AboutImages/Collaboration.jpg";
 import clientFocusImg from "../AboutImages/Clientfocus.png";
 import innovationImg from "../AboutImages/Innovation.jpg";
-import adaptabilityImg from "../AboutImages/Adaptability.jpg";  
+import adaptabilityImg from "../AboutImages/Adaptability.jpg";
 
 const AboutPage = () => {         // AboutPage component
   return (
@@ -39,7 +39,7 @@ const AboutPage = () => {         // AboutPage component
       {/* Core Values Section */}
       <section>
         <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Our Core Values</h2>                                  {/*  all are card here if change the photos       */}
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Excellence */}
           <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
@@ -47,41 +47,41 @@ const AboutPage = () => {         // AboutPage component
             <h3 className="text-xl text-center font-semibold text-gray-800 mb-2">Excellence</h3>
             <p className="text-gray-600">We strive for exceptional quality in everything we do, from code to client communication.</p>
           </div>
-          
+
           {/* Integrity */}
           <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-            
+
             <img src={Logo2} alt="Integrity" className="h-12 w-12 rounded-full items-center mb-4 object-cover mx-auto" />
             <h3 className="text-xl font-semibold text-center text-gray-800 mb-2">Integrity</h3>
             <p className="text-gray-600">We operate with honesty and transparency, building trust through reliable advice and delivery.</p>
           </div>
-          
+
           {/* Collaboration */}
           <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-        <img src={collaborationImg} alt="Collaboration" className="h-12 w-12 rounded-full items-center mb-4 object-cover mx-auto" />
+            <img src={collaborationImg} alt="Collaboration" className="h-12 w-12 rounded-full items-center mb-4 object-cover mx-auto" />
             <h3 className="text-xl font-semibold text-center text-gray-800 mb-2">Collaboration</h3>
             <p className="text-gray-600">We believe the best solutions are built together, fostering open communication with clients and within our team.</p>
           </div>
-          
+
           {/* Client Focus */}
           <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
             <img src={clientFocusImg} alt="Client Focus" className="h-12 w-12 rounded-full items-center  mb-4 object-cover mx-auto" />
             <h3 className="text-xl font-semibold text-center text-gray-800 mb-2">Client Focus</h3>
             <p className="text-gray-600">Our clients' success is our priority. We tailor our services to meet their unique challenges and goals.</p>
           </div>
-          
+
           {/* Innovation */}
           <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                   <img src={innovationImg} alt="Innovation" className="h-12 w-12 rounded-full items-center mb-4 object-cover mx-auto" />
+            <img src={innovationImg} alt="Innovation" className="h-12 w-12 rounded-full items-center mb-4 object-cover mx-auto" />
             <h3 className="text-xl font-semibold text-center text-gray-800 mb-2">Innovation</h3>
             <p className="text-gray-600">We embrace new technologies and creative approaches to solve complex problems effectively.</p>
           </div>
-          
+
           {/* Adaptability */}
           <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-          <img src={adaptabilityImg} alt="Adaptability" className="h-12 w-12 rounded-full mb-4 items-center object-cover mx-auto" />
-         <h3 className="text-xl font-semibold text-center text-gray-800 mb-2">Adaptability</h3>
-         <p className="text-gray-600">The tech world changes rapidly. We remain flexible and responsive to meet evolving client needs and market demands.</p>
+            <img src={adaptabilityImg} alt="Adaptability" className="h-12 w-12 rounded-full mb-4 items-center object-cover mx-auto" />
+            <h3 className="text-xl font-semibold text-center text-gray-800 mb-2">Adaptability</h3>
+            <p className="text-gray-600">The tech world changes rapidly. We remain flexible and responsive to meet evolving client needs and market demands.</p>
           </div>
         </div>
       </section>

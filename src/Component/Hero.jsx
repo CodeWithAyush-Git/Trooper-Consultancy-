@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import heroImg from "../photos/hero.jpg";
+import heroImg from "../photos/Hero.jpg";
 import { Link, useNavigate } from "react-router-dom";
 
 const Header = () => {

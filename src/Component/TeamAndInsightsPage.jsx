@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import insight1 from "../photos/insight1.jpg";
-import insight2 from "../photos/insight2.jpg";
-import insight3 from "../photos/insight3.jpg";
+import insight1 from "../photos/Insight1.jpg";
+import insight2 from "../photos/Insight2.jpg";
+import insight3 from "../photos/Insight3.jpg";
 
 const team = [
   {
