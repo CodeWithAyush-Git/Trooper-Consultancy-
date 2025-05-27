@@ -1,11 +1,11 @@
 import React from 'react';
-import aboutImg from "../photos/About.jpg"; // Importing the image for the About section
-import excellenceImg from "../photos/excellence.jpg";
+import aboutImg from "../AboutImages/About.jpg"; // Importing the image for the About section
+import excellenceImg from "../AboutImages/Excellence.jpg";
 import Logo2 from "../photos/Logo2.png";
-import collaborationImg from "../photos/collaboration.jpg";
-import clientFocusImg from "../photos/clientfocus.png";
-import innovationImg from "../photos/innovation.jpg";
-import adaptabilityImg from "../photos/adaptability.jpg";  
+import collaborationImg from "../AboutImages/Collaboration.jpg";
+import clientFocusImg from "../AboutImages/Clientfocus.png";
+import innovationImg from "../AboutImages/Innovation.jpg";
+import adaptabilityImg from "../AboutImages/Adaptability.jpg";  
 
 const AboutPage = () => {         // AboutPage component
   return (

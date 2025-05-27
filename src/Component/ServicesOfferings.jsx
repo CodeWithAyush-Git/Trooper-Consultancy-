@@ -1,17 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import s1 from "../photos/s1.jpg";
-import s2 from "../photos/s2.jpg";
-import s3 from "../photos/s3.jpg";
-import s4 from "../photos/s4.jpg";
-import s5 from "../photos/s5.jpg";
-import s6 from "../photos/s6.jpg";
-import s7 from "../photos/s7.jpg";
-import s8 from "../photos/s8.jpg";
-import s9 from "../photos/s9.jpg";
-import s10 from "../photos/s10.jpg";
-import s11 from "../photos/s11.jpg";
-import s12 from "../photos/s12.jpg";
+import s1 from "../ServiceImages/s1.jpg";
+import s2 from "../ServiceImages/s2.jpg";
+import s3 from "../ServiceImages/s3.jpg";
+import s4 from "../ServiceImages/s4.jpg";
+import s5 from "../ServiceImages/s5.jpg";
+import s6 from "../ServiceImages/s6.jpg";
+import s7 from "../ServiceImages/s7.jpg";
+import s8 from "../ServiceImages/s8.jpg";
+import s9 from "../ServiceImages/s9.jpg";
+import s10 from "../ServiceImages/s10.jpg";
+import s11 from "../ServiceImages/s11.jpg";
+import s12 from "../ServiceImages/s12.jpg";
 
 const serviceImages = [s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12];
 const ServicesOfferings = () => {
