@@ -3,7 +3,7 @@ import aboutImg from "../AboutImages/About.jpg"; // Importing the image for the 
 import excellenceImg from "../AboutImages/Excellence.jpg";
 import Logo2 from "../photos/Logo2.png";
 import collaborationImg from "../AboutImages/Collaboration.jpg";
-import clientFocusImg from "../AboutImages/Clientfocus.png";
+import clientFocusImg from "../AboutImages/ClientFocus.png";
 import innovationImg from "../AboutImages/Innovation.jpg";
 import adaptabilityImg from "../AboutImages/Adaptability.jpg";
 
