@@ -123,7 +123,7 @@ const TeamAndInsightsPage = () => {
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">The Future of Cloud Computing in Enterprise</h3>
               <p className="text-gray-600 mb-4">Explore how cloud technologies are reshaping business operations and strategies in large organizations.</p>
-              <a href="https://dummy-resources.example.com/case-studies" className="text-blue-600 font-medium hover:underline">Read More</a>
+              <a href="https://www.linkedin.com/company/troopersolutions" className="text-blue-600 font-medium hover:underline">Read More</a>
             </div>
           </div>
           <div className="border border-gray-200 rounded-lg overflow-hidden">
@@ -131,7 +131,7 @@ const TeamAndInsightsPage = () => {
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">Agile Methodologies: Beyond Software Development</h3>
               <p className="text-gray-600 mb-4">Discover how Agile principles can be applied to project management in various industries.</p>
-              <a href="https://dummy-resources.example.com/case-studies" className="text-blue-600 font-medium hover:underline">Read More</a>
+              <a href="https://www.linkedin.com/company/troopersolutions/" className="text-blue-600 font-medium hover:underline">Read More</a>
             </div>
           </div>
           <div className="border border-gray-200 rounded-lg overflow-hidden">
@@ -139,7 +139,7 @@ const TeamAndInsightsPage = () => {
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-2">Cybersecurity Best Practices for Small Businesses</h3>
               <p className="text-gray-600 mb-4">Essential steps every small business should take to protect against digital threats.</p>
-              <a href="https://dummy-resources.example.com/case-studies" className="text-blue-600 font-medium hover:underline">Read More</a>
+              <a href="https://www.linkedin.com/company/troopersolutions/" className="text-blue-600 font-medium hover:underline">Read More</a>
             </div>
           </div>
         </div>
