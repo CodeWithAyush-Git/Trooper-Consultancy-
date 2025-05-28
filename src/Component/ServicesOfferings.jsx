@@ -102,7 +102,7 @@ const ServicesOfferings = () => {
                 <h3 className="text-xl font-semibold text-gray-800 mb-3">{service.title}</h3>
                 <p className="text-gray-600 mb-4">{service.description}</p>
                 <a 
-                  href="#"     // Replace with actual link 
+                  href="https://dummy-resources.example.com/case-studies"     // Replace with actual link 
                   className="text-blue-600 font-medium hover:text-blue-800 hover:underline inline-flex items-center"
                 >
                  {service.cta}
