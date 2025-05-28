@@ -48,47 +48,47 @@ const FooterPage = () => {
 
       {/* Services Grid */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-        {/* Services Column */}
-        <div>
-          <h3 className="text-xl font-semibold mb-4 text-gray-800">Services</h3>
-          <ul className="space-y-2">
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Software Development</a></li>                 {/* link update it  */}
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Project Management</a></li>                   {/* link update it  */}
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">IT Consulting</a></li>                         {/* link update it  */}
-          </ul>
-        </div>
+  {/* Services Column */}
+  <div>
+    <h3 className="text-xl font-semibold mb-4 text-gray-800">Services</h3>
+    <ul className="space-y-2">
+      <li><a href="https://dummy-service1.example.com/software-dev" className="text-gray-600 hover:text-blue-600">Software Development</a></li>
+      <li><a href="https://dummy-service1.example.com/project-mgmt" className="text-gray-600 hover:text-blue-600">Project Management</a></li>
+      <li><a href="https://dummy-service1.example.com/it-consulting" className="text-gray-600 hover:text-blue-600">IT Consulting</a></li>
+    </ul>
+  </div>
 
-        {/* About Column */}
-        <div>
-          <h3 className="text-xl font-semibold mb-4 text-gray-800">About</h3>
-          <ul className="space-y-2">
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Company</a></li>                                  {/* link update it  */}
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Team</a></li>                                     {/* link update it  */}
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Values</a></li>
-          </ul>                                                                    {/* link update it  */} 
-        </div>
+  {/* About Column */}
+  <div>
+    <h3 className="text-xl font-semibold mb-4 text-gray-800">About</h3>
+    <ul className="space-y-2">
+      <li><a href="https://dummy-about.example.com/company" className="text-gray-600 hover:text-blue-600">Company</a></li>
+      <li><a href="https://dummy-about.example.com/team" className="text-gray-600 hover:text-blue-600">Team</a></li>
+      <li><a href="https://dummy-about.example.com/values" className="text-gray-600 hover:text-blue-600">Values</a></li>
+    </ul>
+  </div>
 
-        {/* Resources Column */}
-        <div>
-          <h3 className="text-xl font-semibold mb-4 text-gray-800">Resources</h3>
-          <ul className="space-y-2">
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Blog</a></li>                                       {/* link update it  */}
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Case Studies</a></li>                                {/* link update it  */}
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Whitepapers</a></li>                                 {/* link update it  */}
-          </ul>
-        </div>
+  {/* Resources Column */}
+  <div>
+    <h3 className="text-xl font-semibold mb-4 text-gray-800">Resources</h3>
+    <ul className="space-y-2">
+      <li><a href="https://dummy-blog.example.com" className="text-gray-600 hover:text-blue-600">Blog</a></li>
+      <li><a href="https://dummy-resources.example.com/case-studies" className="text-gray-600 hover:text-blue-600">Case Studies</a></li>
+      <li><a href="https://dummy-resources.example.com/whitepapers" className="text-gray-600 hover:text-blue-600">Whitepapers</a></li>
+    </ul>
+  </div>
 
-        {/* Contact Column */}
-        <div>
-          <h3 className="text-xl font-semibold mb-4 text-gray-800">Contact</h3>
-          <ul className="space-y-2">
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Contact Form</a></li>                                {/* link update it  */}
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Address</a></li>                                      {/* link update it  */}
-            <li><a href="#" className="text-gray-600 hover:text-blue-600">Phone</a></li>                                       {/* link update it  */}
-          </ul>
-        </div>
-      </div>
-    </div>
+  {/* Contact Column */}
+  <div>
+    <h3 className="text-xl font-semibold mb-4 text-gray-800">Contact</h3>
+    <ul className="space-y-2">
+      <li><a href="https://dummy-contact.example.com/form" className="text-gray-600 hover:text-blue-600">Contact Form</a></li>
+      <li><a href="https://dummy-contact.example.com/location" className="text-gray-600 hover:text-blue-600">Address</a></li>
+      <li><a href="https://dummy-contact.example.com/phone" className="text-gray-600 hover:text-blue-600">Phone</a></li>
+    </ul>
+  </div>
+</div>
+</div>
   );
 };
 
