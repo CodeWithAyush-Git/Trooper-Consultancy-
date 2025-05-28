@@ -3,17 +3,25 @@
   <url>
     <loc>https://trooperconsultancy.vercel.app/</loc>
     <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+    <lastmod>2025-05-28</lastmod>
   </url>
   <url>
     <loc>https://trooperconsultancy.vercel.app/about</loc>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2025-05-28</lastmod>
   </url>
   <url>
     <loc>https://trooperconsultancy.vercel.app/contact</loc>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2025-05-28</lastmod>
   </url>
   <url>
     <loc>https://trooperconsultancy.vercel.app/services</loc>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2025-05-28</lastmod>
   </url>
 </urlset>
