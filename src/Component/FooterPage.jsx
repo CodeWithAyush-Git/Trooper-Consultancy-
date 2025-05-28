@@ -52,9 +52,9 @@ const FooterPage = () => {
   <div>
     <h3 className="text-xl font-semibold mb-4 text-gray-800">Services</h3>
     <ul className="space-y-2">
-      <li><a href="https://dummy-service1.example.com/software-dev" className="text-gray-600 hover:text-blue-600">Software Development</a></li>
-      <li><a href="https://dummy-service1.example.com/project-mgmt" className="text-gray-600 hover:text-blue-600">Project Management</a></li>
-      <li><a href="https://dummy-service1.example.com/it-consulting" className="text-gray-600 hover:text-blue-600">IT Consulting</a></li>
+      <li><a href="https://www.google.com/aclk?sa=l&ai=DChcSEwiw1sLr8cWNAxVaC4MDHU3XHxcYABAAGgJzZg&co=1&gclid=CjwKCAjw6NrBBhB6EiwAvnT_rmwRh8jOkHZb6SZJVne1Ti-wJO3rwQWmUBYW829tpxfDAcdjNwQpCxoCIkQQAvD_BwE&category=acrcp_v1_0&sig=AOD64_1UAVz_lCvXgE8cG6UmXB6UHzRBtQ&q&adurl&ved=2ahUKEwjk_7zr8cWNAxW9yqACHcSjEYYQ0Qx6BAgKEAE" className="text-gray-600 hover:text-blue-600">Software Development</a></li>
+      <li><a href="https://www.google.com/aclk?sa=l&ai=DChcSEwjr9PP-8cWNAxWEpGYCHY6VL_8YABAEGgJzbQ&co=1&gclid=CjwKCAjw6NrBBhB6EiwAvnT_rrXhrWw8agM7Yvs-w7vQphnz2GfrzbpU1m2MkglJgm_0HuDhxF0y-hoCQZUQAvD_BwE&category=acrcp_v1_0&sig=AOD64_1BUauq7WeWBY0v8Ads82-j76UZiQ&q&adurl&ved=2ahUKEwiAtu7-8cWNAxUzxzgGHeeQBiEQ0Qx6BAgNEAE" className="text-gray-600 hover:text-blue-600">Project Management</a></li>
+      <li><a href="https://www.linkedin.com/company/it-services-and-it-consulting" className="text-gray-600 hover:text-blue-600">IT Consulting</a></li>
     </ul>
   </div>
 
@@ -62,9 +62,9 @@ const FooterPage = () => {
   <div>
     <h3 className="text-xl font-semibold mb-4 text-gray-800">About</h3>
     <ul className="space-y-2">
-      <li><a href="https://dummy-about.example.com/company" className="text-gray-600 hover:text-blue-600">Company</a></li>
-      <li><a href="https://dummy-about.example.com/team" className="text-gray-600 hover:text-blue-600">Team</a></li>
-      <li><a href="https://dummy-about.example.com/values" className="text-gray-600 hover:text-blue-600">Values</a></li>
+      <li><a href="https://www.linkedin.com/company/troopersolutions/ " className="text-gray-600 hover:text-blue-600">Linkdin</a></li>
+      <li><a href="https://www.teamlink.co/" className="text-gray-600 hover:text-blue-600">Team</a></li>
+      <li><a href="https://valuelinksoftware.com/" className="text-gray-600 hover:text-blue-600">Values</a></li>
     </ul>
   </div>
 
@@ -72,9 +72,9 @@ const FooterPage = () => {
   <div>
     <h3 className="text-xl font-semibold mb-4 text-gray-800">Resources</h3>
     <ul className="space-y-2">
-      <li><a href="https://dummy-blog.example.com" className="text-gray-600 hover:text-blue-600">Blog</a></li>
-      <li><a href="https://dummy-resources.example.com/case-studies" className="text-gray-600 hover:text-blue-600">Case Studies</a></li>
-      <li><a href="https://dummy-resources.example.com/whitepapers" className="text-gray-600 hover:text-blue-600">Whitepapers</a></li>
+      <li><a href="https://www.google.com/aclk?sa=l&ai=DChcSEwjw55Tp8sWNAxVzzRYFHXPCJkIYABAAGgJ0bA&co=1&gclid=CjwKCAjw6NrBBhB6EiwAvnT_rmS2DYotA3lJPhoUHLreKJHBeOm2HsMW5v-rAA3jnThzdTw4cRXGPxoCXW0QAvD_BwE&category=acrcp_v1_0&sig=AOD64_2-ZFnLW4HZTkn4BEy5RNYXK94wrg&q&adurl&ved=2ahUKEwiXno_p8sWNAxU2slYBHZ5iIYgQ0Qx6BAgLEAE" className="text-gray-600 hover:text-blue-600">Blog</a></li>
+      <li><a href="https://www.casestudylink.co.uk/" className="text-gray-600 hover:text-blue-600">Case Stud</a></li>
+      <li><a href="https://chain.link/whitepaper" className="text-gray-600 hover:text-blue-600">Whitepapers</a></li>
     </ul>
   </div>
 
@@ -82,9 +82,9 @@ const FooterPage = () => {
   <div>
     <h3 className="text-xl font-semibold mb-4 text-gray-800">Contact</h3>
     <ul className="space-y-2">
-      <li><a href="https://dummy-contact.example.com/form" className="text-gray-600 hover:text-blue-600">Contact Form</a></li>
-      <li><a href="https://dummy-contact.example.com/location" className="text-gray-600 hover:text-blue-600">Address</a></li>
-      <li><a href="https://dummy-contact.example.com/phone" className="text-gray-600 hover:text-blue-600">Phone</a></li>
+      <li><a href="https://www.google.com/aclk?sa=l&ai=DChcSEwiy07-b88WNAxWA2RYFHRPgJRAYABABGgJ0bA&co=1&ase=2&gclid=CjwKCAjw6NrBBhB6EiwAvnT_rn4m812Xv3xaDHEvEmCIcSR0uCgu_ssmlzJlm3WrAb4Q_k97v_7O3RoCVr4QAvD_BwE&category=acrcp_v1_5&sig=AOD64_383wDlMpaIPhUPynz9Fr6yI8yQnQ&q&nis=4&adurl&ved=2ahUKEwi9-7mb88WNAxWkrlYBHVFmKvUQ0Qx6BAgWEAE" className="text-gray-600 hover:text-blue-600">Contact Form</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Link-local_address" className="text-gray-600 hover:text-blue-600">Address</a></li>
+      <li><a href="https://uidai.gov.in/en/my-aadhaar/avail-aadhaar-services.html" className="text-gray-600 hover:text-blue-600">Phone</a></li>
     </ul>
   </div>
 </div>
